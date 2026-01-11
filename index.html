@@ -45,13 +45,22 @@
             transform: translateZ(0);
         }
 
-        .video-overlay {
-            position: fixed;
-            inset: 0;
-            background: linear-gradient(to bottom, rgba(26, 4, 68, 0), rgba(45, 10, 85, 0.596));
-            z-index: -1;
-            backdrop-filter: blur(4px);
-        }
+.video-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+
+    /* ฟิลเตอร์ม่วง */
+    background:
+        linear-gradient(
+            180deg,
+            rgba(140, 0, 255, 0.25),
+            rgba(60, 0, 120, 0.45)
+        );
+
+    /* ❌ อย่าใช้ backdrop-filter กับ video */
+}
+
 
         /* ===== Holographic Card ===== */
         .card {
@@ -287,7 +296,7 @@
     <div class="card">
         <div class="profile-wrapper">
             <img src="https://img5.pic.in.th/file/secure-sv1/Messenger_creation_85A5FA2D-0151-4F14-9184-EC25CD379AC7.jpg" class="profile-img">
-            <img src="Profile_ui2/icons/1.png" class="profile-frame">
+            <img src="Profile_ui2/1.png" class="profile-frame">
         </div>
         
 
