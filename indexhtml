@@ -287,7 +287,7 @@
     <div class="card">
         <div class="profile-wrapper">
             <img src="https://img2.pic.in.th/IMG_3830a34fe2dcfe027c7e.jpg" class="profile-img">
-            <img src="Profile_ui2/icons/1.png" class="profile-frame">
+            <img src="./1.png" class="profile-frame">
         </div>
         
 
